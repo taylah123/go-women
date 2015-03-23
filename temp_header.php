@@ -23,5 +23,3 @@
 </head>
 
 <body class="temp-homepage">
-
-	<div id="content" class="site-content">
