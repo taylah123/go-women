@@ -13,8 +13,7 @@
  */
 
 include 'temp_header.php'; ?>
-<div class="temp-homepage">
 	<img src="" />
-	<p>Bla bla mission bla bla</p>
-</div>
-<?php get_footer(); ?>
+	<p></p>
+	
+</body>

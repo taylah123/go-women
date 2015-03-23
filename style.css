@@ -93,6 +93,24 @@ body {
 	background: #f1f1f1;
 }
 
+body.temp-homepage {
+	background: #dde1f4;
+	padding:0px;
+	margin:0px;
+}
+
+body.temp-homepage img {
+	margin:200 auto;
+	width:300px;
+}
+
+body.temp-homepage p {
+	margin:100px auto;
+	width:300px;
+	font-size:14px;
+	text-align: center;
+}
+
 article,
 aside,
 details,
