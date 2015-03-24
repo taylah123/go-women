@@ -97,18 +97,21 @@ body.temp-homepage {
 	background-color: #dde1f4;
 	padding:0px;
 	margin:0px;
+	text-align:center;
 }
 
 body.temp-homepage img {
-	margin:200 auto;
+	padding-top:200px;
 	width:300px;
 }
 
 body.temp-homepage p {
-	margin:100px auto;
-	width:300px;
+	margin:20px auto;
+	width:600px;
 	font-size:14px;
 	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
 }
 
 article,
