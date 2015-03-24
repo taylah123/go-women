@@ -13,7 +13,7 @@
  */
 
 include 'temp_header.php'; ?>
-	<img src="" />
-	<p></p>
+	<img src="http://128.199.242.153/wp-content/uploads/2015/03/go-women-logo.png" />
+	<p>Debunking the fallacy that the Tech industry isn’t for girls by illustrating what it actually means to work in technology.<br/><a href="mailto:hello@go-women.org">hello@go-women.org</a></p>
 	
 </body>
