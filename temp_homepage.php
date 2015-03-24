@@ -14,6 +14,6 @@
 
 include 'temp_header.php'; ?>
 	<img src="http://128.199.242.153/wp-content/uploads/2015/03/go-women-logo1.png" />
-	<p>The other side of tech.<br/><a href="mailto:hello@go-women.org">hello@go-women.org</a></p>
+	<p>The other side of tech - coming soon.<br/><a href="mailto:hello@go-women.org">hello@go-women.org</a></p>
 	
 </body>
