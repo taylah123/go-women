@@ -14,11 +14,16 @@
  * @since Twenty Fifteen 1.0
  */
 
-get_header(); ?>
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-
+include 'temp_header.php'; ?>
+<div class="page_header">
+	<img src="http://128.199.242.153/wp-content/uploads/2015/03/go-women-logo1.png" />
+	<p>The other side of tech - <a href="mailto:hello@go-women.org">hello@go-women.org</a></p>
+	<div class="nav_links">
+		<?php
+		 wp_list_categories('title_li'); ?>
+	</div>
+</div>
+<div class="posts_wrapper">
 		<?php if ( have_posts() ) : ?>
 
 			<?php if ( is_home() && ! is_front_page() ) : ?>
@@ -55,7 +60,7 @@ get_header(); ?>
 		endif;
 		?>
 
-		</main><!-- .site-main -->
-	</div><!-- .content-area -->
+		
+</div>
 
 <?php get_footer(); ?>

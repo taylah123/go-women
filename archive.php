@@ -16,19 +16,18 @@
  * @since Twenty Fifteen 1.0
  */
 
-get_header(); ?>
-
-	<section id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+include 'temp_header.php'; ?>
+<div class="page_header">
+	<img src="http://128.199.242.153/wp-content/uploads/2015/03/go-women-logo1.png" />
+	<p>The other side of tech</p>
+	<div class="nav_links">
+		<?php
+		 wp_list_categories('title_li'); ?>
+	</div>
+</div>
+<div class="posts_wrapper">
 
 		<?php if ( have_posts() ) : ?>
-
-			<header class="page-header">
-				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>
-			</header><!-- .page-header -->
 
 			<?php
 			// Start the Loop.
@@ -58,7 +57,5 @@ get_header(); ?>
 		endif;
 		?>
 
-		</main><!-- .site-main -->
-	</section><!-- .content-area -->
-
+</div>
 <?php get_footer(); ?>
