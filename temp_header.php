@@ -52,7 +52,7 @@
 <div class="wrap" id="wrap">
 <div class="page_header">
 	<div class="image_area">
-		<a href="http://www.go-women.org"><img src="http://localhost/wordpress/wp-content/uploads/2015/04/go-women-logo.png" /></a>
+		<a href="http://www.go-women.org"><img src="http://www.go-women.org/wp-content/uploads/2015/04/go-women-logo.png" /></a>
 		<p>Revealing what it is like to be a women in tech.</p>
 	</div>
 	<div class="nav_links">
