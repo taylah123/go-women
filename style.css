@@ -1634,17 +1634,17 @@ img.aligncenter {
 }
 
 .wrap .posts_wrapper {
-	padding-top:300px;
+	padding-top:360px;
 }
 
 .wrap.fixed .page_header {
 	height:48px;
-	transition:height 0.8s;
+	transition:height 0.6s;
 	overflow: hidden;
 }
 .wrap.fixed .image_area { 
 	height:0px;
-	transition:height 1.2s;
+	transition:height 1s;
 }
 
 .nav_links li {
