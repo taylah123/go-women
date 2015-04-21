@@ -1602,12 +1602,49 @@ img.aligncenter {
 	min-height:400px;
 	padding-bottom:20px;
 }
+.wrap .page_header {
+	position:fixed;
+	width:100%;
+	height:300px;
+	z-index:99999;
+	top:0;
+	left:0;
+}
+.wrap .image_area { 
+	background-image: url('http://40.media.tumblr.com/5b552792cd427f4a28bc4310690606b5/tumblr_nc2tpuDGfN1qa6y0bo1_1280.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	width:100%;
+	height:300px;
+}
+.wrap .image_area a img {
+	margin-top:50px;
+}
 
-.nav_links {
-	width: 100%;
+.wrap .image_area p {
+	color: #fff;
+}
+.wrap .nav_links {
+  width: 100%;
   padding: 10px 8px;
   text-align: center;
-  margin-top: 30px;
+  background:#fff;
+  position: absolute;
+  bottom:0;
+}
+
+.wrap .posts_wrapper {
+	padding-top:300px;
+}
+
+.wrap.fixed .page_header {
+	height:48px;
+	transition:height 0.4s;
+	overflow: hidden;
+}
+.wrap.fixed .image_area { 
+	height:0px;
+	transition:height 0.6s;
 }
 
 .nav_links li {
@@ -5935,6 +5972,14 @@ p > video {
 	width:100%;
 }
 
+body .inner_content p {
+	text-align:left;
+	padding:8px;
+}
+
+body .inner_content a {
+	text-decoration: underline;
+}
 .post_content img {
 	display:block;
 	margin:0 auto;

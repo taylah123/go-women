@@ -35,3 +35,28 @@
 </head>
 
 <body class="temp-homepage">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>
+	jQuery(document).ready(function($) {
+	    $(window).scroll(function () {
+	        if ($(window).scrollTop() > 200) { 
+	            $('.wrap').addClass('fixed');
+	        }
+	        else{
+	            $('.wrap').removeClass('fixed');
+	        }
+	    });
+	});
+		
+	</script>
+<div class="wrap" id="wrap">
+<div class="page_header">
+	<div class="image_area">
+		<a href="http://www.go-women.org"><img src="http://localhost/wordpress/wp-content/uploads/2015/04/go-women-logo.png" /></a>
+		<p>Revealing what it is like to be a women in tech.</p>
+	</div>
+	<div class="nav_links">
+		<?php
+		 wp_list_categories('title_li'); ?>
+	</div>
+</div>

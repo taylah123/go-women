@@ -17,14 +17,7 @@
  */
 
 include 'temp_header.php'; ?>
-<div class="page_header">
-	<img src="http://128.199.242.153/wp-content/uploads/2015/03/go-women-logo1.png" />
-	<p>The other side of tech</p>
-	<div class="nav_links">
-		<?php
-		 wp_list_categories('title_li'); ?>
-	</div>
-</div>
+
 <div class="posts_wrapper">
 
 		<?php if ( have_posts() ) : ?>
@@ -57,5 +50,6 @@ include 'temp_header.php'; ?>
 		endif;
 		?>
 
+</div>
 </div>
 <?php get_footer(); ?>
