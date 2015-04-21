@@ -1639,12 +1639,12 @@ img.aligncenter {
 
 .wrap.fixed .page_header {
 	height:48px;
-	transition:height 0.4s;
+	transition:height 0.8s;
 	overflow: hidden;
 }
 .wrap.fixed .image_area { 
 	height:0px;
-	transition:height 0.6s;
+	transition:height 1.2s;
 }
 
 .nav_links li {
