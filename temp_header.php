@@ -38,17 +38,48 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script>
 	jQuery(document).ready(function($) {
-	    $(window).scroll(function () {
-	        if ($(window).scrollTop() > 200) { 
-	            $('.wrap').addClass('fixed');
+	    $(window).scroll(function (e) {
+	        // if ($(window).scrollTop() > 200) { 
+	        //     $('.wrap').addClass('fixed');
+	        // }
+	        // else{
+	        //     $('.wrap').removeClass('fixed');
+	        // }
+
+	        var ratio;
+
+	        var top = $(window).scrollTop()
+
+	        if (top > 240) {
+	        	ratio = 1;
+	        } else if (top < 20) {
+	        	ratio = 0;
+	        } else {
+	        	ratio = top / 240;
 	        }
-	        else{
-	            $('.wrap').removeClass('fixed');
-	        }
+	        console.log(top +" "+ ratio)
+
+
+	        var marginLogo = 50 - 80*ratio
+	        var widthLogo = 280 - 90*ratio
+		    var heightHeader = 300 - 240*ratio;
+
+	        $('#headerLogo').css('margin-top', marginLogo + 'px');
+	        $('#headerLogo').css('width', widthLogo + 'px');
+	        $('.image_area').css('height', heightHeader + 'px');
+
+
+		    // if (top > 60) {
+		    //     $('.image_area').css('height', top + 'px');
+		    // } else {
+		    // 	$('.image_area').css('height', '60px');
+		    // };
+
 	    });
 	});
 		
 	</script>
+</header>
 <div class="wrap" id="wrap">
 <div class="page_header">
 	<div class="menu_links">
@@ -78,11 +109,19 @@
 			?>
 	</div>
 	<div class="image_area">
-		<a href="http://www.go-women.org"><img src="http://www.go-women.org/wp-content/uploads/2015/04/go-women-logo.png" /></a>
-		<p>Revealing what it is like to be a women in tech.</p>
+		<a href="http://www.go-women.org"><img id='headerLogo' src="/wp-content/themes/go-women/img/go-women-logo.png" /></a>
+		<p>Revealing the beauty behind being a women in tech.</p>
 	</div>
-	<div class="nav_links">
-		<?php
-		 wp_list_categories('title_li'); ?>
-	</div>
+
+	<?php if(is_home() ) { ?>
+
+		<div class="nav_links">
+			<?php
+		 	wp_list_categories('title_li'); ?>
+		</div>
+
+	<?php } ?>
+
 </div>
+</div>
+</header>

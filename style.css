@@ -1652,16 +1652,18 @@ img.aligncenter {
 	min-height:400px;
 	padding-bottom:20px;
 }
+
 .wrap .page_header {
-	position:fixed;
 	width:100%;
 	height:300px;
 	z-index:99999;
+	position: fixed;
 	top:0;
 	left:0;
 }
 .wrap .image_area { 
-	background-image: url('http://40.media.tumblr.com/5b552792cd427f4a28bc4310690606b5/tumblr_nc2tpuDGfN1qa6y0bo1_1280.jpg');
+	background: #ccc;
+	background-image: url('./img/bg.jpg');
 	background-size:cover;
 	background-repeat: no-repeat;
 	width:100%;
@@ -1676,26 +1678,33 @@ img.aligncenter {
 }
 .wrap .nav_links {
   width: 100%;
-  padding: 10px 8px;
   text-align: center;
-  background:#fff;
-  position: absolute;
-  bottom:0;
+  background: #fff;
+  padding: 7px 0px;
 }
 
-.wrap .posts_wrapper {
-	padding-top:360px;
-}
-
-.wrap.fixed .page_header {
+/*.wrap.fixed .page_header {
 	height:48px;
-	transition:height 0.6s;
-	overflow: hidden;
+	transition:height 0.2s;
 }
 .wrap.fixed .image_area { 
-	height:0px;
-	transition:height 1s;
+	height: inherit;
+	transition:height 0.2s;
 }
+
+.wrap.fixed .image_area a img {
+	margin-top: 9px;
+	padding-top: 0px;
+  	width: 154px;
+  	transition: 0.475s all ease;
+}
+.wrap.fixed .nav_links {
+	margin-top: 46px;
+	border-bottom: 1px solid #ccc;
+	background: #F0F0F0;
+  transition: 0.475s all;
+}*/
+
 
 .nav_links li {
 	list-style: none;
@@ -2331,6 +2340,7 @@ a.post-thumbnail:focus {
 	background:#f6f6f6;
 	padding: 60px 20px;
 	text-align: center;
+	padding-top: 370px;
 }
 
 

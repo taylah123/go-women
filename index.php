@@ -15,6 +15,7 @@
  */
 
 include 'temp_header.php'; ?>
+
 <div class="posts_wrapper">
 		<?php if ( have_posts() ) : ?>
 
