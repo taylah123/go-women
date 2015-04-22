@@ -1348,6 +1348,31 @@ img.aligncenter {
 	background:#fff;
 }
 
+.menu_links {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999999999;
+	padding: 0px 10px;
+}
+
+#menu-header-menu {
+	text-align:left;
+}
+
+#menu-header-menu li {
+	list-style:none;
+	display:inline-block;
+	padding:10px 5px;
+}
+
+#menu-header-menu li a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .content_wrapper .hentry {
 	width:100%;
 	text-align:left;

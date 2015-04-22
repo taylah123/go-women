@@ -51,6 +51,32 @@
 	</script>
 <div class="wrap" id="wrap">
 <div class="page_header">
+	<div class="menu_links">
+		<?php
+
+			$defaults = array(
+				'theme_location'  => '',
+				'menu'            => '',
+				'container'       => 'div',
+				'container_class' => '',
+				'container_id'    => '',
+				'menu_class'      => 'menu',
+				'menu_id'         => '',
+				'echo'            => true,
+				'fallback_cb'     => 'header_menu',
+				'before'          => '',
+				'after'           => '',
+				'link_before'     => '',
+				'link_after'      => '',
+				'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+				'depth'           => 0,
+				'walker'          => ''
+			);
+
+			wp_nav_menu( $defaults );
+
+			?>
+	</div>
 	<div class="image_area">
 		<a href="http://www.go-women.org"><img src="http://www.go-women.org/wp-content/uploads/2015/04/go-women-logo.png" /></a>
 		<p>Revealing what it is like to be a women in tech.</p>
