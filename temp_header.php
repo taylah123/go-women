@@ -110,17 +110,18 @@
 	</div>
 	<div class="image_area">
 		<a href="http://www.go-women.org"><img id='headerLogo' src="/wp-content/themes/go-women/img/go-women-logo.png" /></a>
-		<p>Revealing the beauty behind being a women in tech.</p>
+		<p>Revealing the beauty behind being a woman in tech</p>
 	</div>
 
-	<?php if(is_home() ) { ?>
+	<?php
+	 // if(is_home() ) { ?>
 
 		<div class="nav_links">
 			<?php
 		 	wp_list_categories('title_li'); ?>
 		</div>
 
-	<?php } ?>
+	<?php //} ?>
 
 </div>
 </div>
