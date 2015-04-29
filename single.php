@@ -8,6 +8,25 @@
  */
 
 include 'temp_header.php'; ?>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '660824957396762',
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
 <div class="posts_wrapper" id="post_page">
 <div class="inner_content">
 		<h1><?php the_title(); ?></h1>
@@ -17,6 +36,6 @@ include 'temp_header.php'; ?>
 		<p class="post_content"><?php echo $post->post_content; ?></p>
 		</div>
 	</div>
-<?php include 'comments.php' ?>
+<?php echo do_shortcode('[fbcomments][fbcomments url="http://peadig.com/wordpress-plugins/facebook-comments/" width="375" count="off" num="3" countmsg="wonderful comments!"]'); ?>
 	</div><!-- .content-area -->
 <?php get_footer(); ?>
