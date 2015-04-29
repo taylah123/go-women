@@ -36,6 +36,6 @@ include 'temp_header.php'; ?>
 		<p class="post_content"><?php echo $post->post_content; ?></p>
 		</div>
 	</div>
-<?php echo do_shortcode('[fbcomments width="700"]'); ?>
+<?php echo do_shortcode('[fbcomments width="800"]'); ?>
 	</div><!-- .content-area -->
 <?php get_footer(); ?>
