@@ -59,6 +59,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * and Blueprint http://www.blueprintcss.org/
  */
 
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900|Lora:400,700|Slabo+27px|Montserrat|Roboto+Slab|Open+Sans:400,700);
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
 	font-family: inherit;
@@ -105,16 +107,6 @@ body.temp-homepage img {
 	width:280px;
 }
 
-body.temp-homepage p {
-	margin:6px auto;
-	width:100%;
-	font-size:14px;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	-webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-	font-weight:300;
-}
 
 article,
 aside,
@@ -249,6 +241,12 @@ h5,
 h6 {
 	clear: both;
 	font-weight: 700;
+}
+
+h1 {
+	font-size:36px;
+	padding:10px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -1883,18 +1881,19 @@ a.post-thumbnail:focus {
 .entry-summary h1,
 .page-content h1,
 .comment-content h1 {
-	font-size: 26px;
+	font-size: 36px;
 	font-size: 2.6rem;
 	line-height: 1.1538;
 	margin-top: 1.8462em;
 	margin-bottom: 0.9231em;
+	font-family:'Source Sans Pro', sans-serif;
 }
 
 .entry-content h2,
 .entry-summary h2,
 .page-content h2,
 .comment-content h2 {
-	font-size: 22px;
+	font-size: 28px;
 	font-size: 2.2rem;
 	line-height: 1.3636;
 	margin-top: 2.1818em;
@@ -6027,15 +6026,11 @@ p > video {
 
 .inner_content {
 	background:#fff;
-	padding:20px;
+	padding:55px;
 	margin: 0 auto;
 	max-width:900px;
 	width:100%;
-}
-
-body .inner_content p {
 	text-align:left;
-	padding:8px;
 }
 
 body .inner_content a {
@@ -6045,3 +6040,13 @@ body .inner_content a {
 	display:block;
 	margin:0 auto;
 }
+
+
+
+#post_page img {
+	padding:20px;
+}
+
+
+
+
