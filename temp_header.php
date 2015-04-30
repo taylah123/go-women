@@ -19,6 +19,7 @@
 	<!--[if lt IE 9]>
 	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
 	<![endif]-->
+	<link rel="icon" type="image/png" href="http://go-women.org/wp-content/uploads/2015/04/go-women_fav1.png" />
 	<script>(function(){document.documentElement.className='js'})();</script>
 
 <script>
