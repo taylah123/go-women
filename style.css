@@ -1668,6 +1668,7 @@ img.aligncenter {
 	background-repeat: no-repeat;
 	width:100%;
 	height:55px;
+	overflow: hidden;
 }
 .wrap .image_area a img {
 	margin-top:0px;
@@ -2347,7 +2348,7 @@ a.post-thumbnail:focus {
 	background:#f6f6f6;
 	padding: 60px 20px;
 	text-align: center;
-	padding-top: 370px;
+	padding-top: 70px;
 }
 
 
@@ -4197,6 +4198,9 @@ p > video {
 @media screen and (min-width: 59.6875em) {
 	.mobile_menu {
 		display:none;
+	}
+	.posts_wrapper {
+		padding-top:370px;
 	}
 	body.temp-homepage img {
 		padding-top:40px;
