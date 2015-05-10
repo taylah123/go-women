@@ -110,6 +110,7 @@
 			?>
 	</div>
 	<div class="image_area">
+		<img src="http://go-women.org/wp-content/uploads/2015/05/hamburger.png" class="mobile_menu"/>
 		<a href="http://www.go-women.org"><img id='headerLogo' src="/wp-content/themes/go-women/img/go-women-logo.png" /></a>
 		<p>Revealing the beauty behind being a woman in tech</p>
 	</div>

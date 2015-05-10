@@ -22,6 +22,15 @@
 		_this.html( _this.html() === screenReaderText.expand ? screenReaderText.collapse : screenReaderText.expand );
 	} );
 
+	$( '.mobile_menu' ).click( function ( e ) {
+		var _this = $( this );
+		if(_this.parent().parent().parent().hasClass('show')) {
+			_this.parent().parent().parent().removeClass('show');
+		} else {
+			_this.parent().parent().parent().addClass('show');
+		}
+	});
+
 	// Enable menu toggle for small screens.
 	( function() {
 		var secondary = $( '#secondary' ), button, menu, widgets, social;
