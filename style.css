@@ -247,7 +247,8 @@ h6 {
 
 h1 {
 	font-size:36px;
-	padding:10px;
+	padding:0px;
+	line-height:1em;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -2949,7 +2950,7 @@ p > video {
 
 	#post_page img {
 		padding:10px;
-		padding-bottom:20px;
+		padding-bottom:0px;
 		width:auto!important;
 	}
 
@@ -6073,7 +6074,7 @@ p > video {
 
 .inner_content {
 	background:#fff;
-	padding:55px;
+	padding:30px;
 	margin: 0 auto;
 	max-width:900px;
 	width:100%;
