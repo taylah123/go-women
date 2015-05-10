@@ -40,42 +40,47 @@
 	<script>
 	jQuery(document).ready(function($) {
 	    $(window).scroll(function (e) {
-	        // if ($(window).scrollTop() > 200) { 
-	        //     $('.wrap').addClass('fixed');
-	        // }
-	        // else{
-	        //     $('.wrap').removeClass('fixed');
-	        // }
+	    	var isMobile = false;
+	    	if($(window).width() < 1000) {
+	    		isMobile = true;
+	    	}
+	    	if(!isMobile){
+		        // if ($(window).scrollTop() > 200) { 
+		        //     $('.wrap').addClass('fixed');
+		        // }
+		        // else{
+		        //     $('.wrap').removeClass('fixed');
+		        // }
 
-	        var ratio;
+		        var ratio;
 
-	        var top = $(window).scrollTop()
+		        var top = $(window).scrollTop()
 
-	        if (top > 240) {
-	        	ratio = 1;
-	        } else if (top < 20) {
-	        	ratio = 0;
-	        } else {
-	        	ratio = top / 240;
-	        }
-	        console.log(top +" "+ ratio)
-
-
-	        var marginLogo = 50 - 80*ratio
-	        var widthLogo = 280 - 90*ratio
-		    var heightHeader = 300 - 240*ratio;
-
-	        $('#headerLogo').css('margin-top', marginLogo + 'px');
-	        $('#headerLogo').css('width', widthLogo + 'px');
-	        $('.image_area').css('height', heightHeader + 'px');
+		        if (top > 240) {
+		        	ratio = 1;
+		        } else if (top < 20) {
+		        	ratio = 0;
+		        } else {
+		        	ratio = top / 240;
+		        }
+		        console.log(top +" "+ ratio)
 
 
-		    // if (top > 60) {
-		    //     $('.image_area').css('height', top + 'px');
-		    // } else {
-		    // 	$('.image_area').css('height', '60px');
-		    // };
+		        var marginLogo = 50 - 80*ratio
+		        var widthLogo = 280 - 90*ratio
+			    var heightHeader = 300 - 240*ratio;
 
+		        $('#headerLogo').css('margin-top', marginLogo + 'px');
+		        $('#headerLogo').css('width', widthLogo + 'px');
+		        $('.image_area').css('height', heightHeader + 'px');
+
+
+			    // if (top > 60) {
+			    //     $('.image_area').css('height', top + 'px');
+			    // } else {
+			    // 	$('.image_area').css('height', '60px');
+			    // };
+			}
 	    });
 	});
 		
