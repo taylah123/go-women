@@ -313,7 +313,7 @@ function author_box() { ?>
 	<div class="author-profile vcard">
 		<?php $author_id = get_the_author_meta('ID'); ?>
 		<?php $author_image = get_field('profile_image', 'user_'. $author_id ); ?>
-		<img src="<?php echo $author_image['url']; ?>" />
+		<img class="author-profile-image" src="<?php echo $author_image['url']; ?>" />
 
 		<h4 class="author-name fn n">Article written by <?php the_author_posts_link(); ?></h4>
 
