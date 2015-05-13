@@ -31,8 +31,8 @@ include 'temp_header.php'; ?>
 <div class="inner_content">
 		<h1><?php the_title(); ?></h1>
 	<?php if (is_single()) {
-		echo $the_content;
-} ?>
+		echo $the_content; 
+    } ?>
 		<p class="post_content"><?php echo $post->post_content; ?></p>
     <?php author_box(); ?>
     </div>
