@@ -34,7 +34,12 @@ include 'temp_header.php'; ?>
 		echo $the_content;
 } ?>
 		<p class="post_content"><?php echo $post->post_content; ?></p>
-		</div>
+		<div class="colab_content">
+    <?php get_the_author() ?>
+    <p>This post was written by <?php the_author(); ?></p>
+    </div>
+    </div>
+
 	</div>
 <?php echo do_shortcode('[fbcomments width="800"]'); ?>
 	</div><!-- .content-area -->

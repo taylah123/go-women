@@ -2352,6 +2352,11 @@ a.post-thumbnail:focus {
 	padding-top: 70px;
 }
 
+.colab_content {
+	border-top:1px solid #f4f4f4;
+	padding-top:10px;
+}
+
 
 /**
  * 12.2 Post Formats
