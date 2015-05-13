@@ -2352,10 +2352,22 @@ a.post-thumbnail:focus {
 	padding-top: 70px;
 }
 
-.colab_content {
+.author-profile {
 	border-top:1px solid #f4f4f4;
 	padding-top:10px;
 }
+
+.author-profile-image {
+	width:100px!important;
+	display: inline-block;
+  	padding: 0px!important;
+}
+
+.author-name {
+display: inline-block;
+  padding: 10px;
+}
+
 
 
 /**
