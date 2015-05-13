@@ -35,7 +35,7 @@ include 'temp_header.php'; ?>
 } ?>
 		<p class="post_content"><?php echo $post->post_content; ?></p>
 		<div class="colab_content">
-    <?php get_userdata(get_the_author_meta('ID'))->profile_image ?>
+    <?php get_userdata(get_the_author_meta('ID'))->the_field('profile_image') ?>
     <p>This post was written by <?php the_author(); ?></p>
     </div>
     </div>
