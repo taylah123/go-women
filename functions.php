@@ -311,7 +311,8 @@ add_filter( 'get_search_form', 'twentyfifteen_search_form_modify' );
 
 function author_box() { ?>
 	<div class="author-profile vcard">
-		
+		<?php $id = the_author_meta('ID'); ?>
+		<?php $id_field = user_ . $id; ?>
 		<?php the_field('profile_image', $id_field); ?>
 
 		<h4 class="author-name fn n">Article written by <?php the_author_posts_link(); ?></h4>
