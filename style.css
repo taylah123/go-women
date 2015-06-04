@@ -2379,14 +2379,14 @@ display: inline-block;
 .ad_block_left, .ad_block_right {
 	position:absolute;
 	top:0;
-	width:200px;
+	width:160px;
 	height:100%;
 }
 .ad_block_left {
-	left:-200px;
+	left:-160px;
 }
 .ad_block_right {
-	right:-200px;
+	right:-160px;
 }
 .format-aside .entry-title,
 .format-image .entry-title,
