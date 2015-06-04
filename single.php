@@ -26,18 +26,6 @@ include 'temp_header.php'; ?>
    }(document, 'script', 'facebook-jssdk'));
 </script>
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Banner Post Page -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7995316478862697"
-     data-ad-slot="4316239961"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
 <div class="posts_wrapper" id="post_page">
 
 <div class="inner_content">
