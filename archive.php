@@ -49,8 +49,6 @@ include 'temp_header.php'; ?>
 
 		endif;
 		?>
-
-</div>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Catalog Page Banner -->
 <ins class="adsbygoogle"
@@ -60,5 +58,6 @@ include 'temp_header.php'; ?>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
 </div>
 <?php get_footer(); ?>
