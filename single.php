@@ -41,7 +41,6 @@ include 'temp_header.php'; ?>
 </script>
 </div>
 <div class="ad_block_right">
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- 160 Post Page Banner -->
 <ins class="adsbygoogle"
      style="display:inline-block;width:160px;height:600px"
