@@ -2379,7 +2379,9 @@ display: inline-block;
 .ad_block_left, .ad_block_right {
 	position:absolute;
 	top:0;
-	width:200px;
+	width:201px;
+	margin:0;
+	padding:0;
 	height:100%;
 }
 .ad_block_right {
