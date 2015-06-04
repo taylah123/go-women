@@ -51,7 +51,6 @@ include 'temp_header.php'; ?>
     <?php author_box(); ?>
 </div>
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Footer & Comments AD -->
 <ins class="adsbygoogle"
      style="display:inline-block;width:728px;height:90px"
@@ -66,7 +65,6 @@ include 'temp_header.php'; ?>
 	</div><!-- .content-area -->
 <?php get_footer(); ?>
 <!-- Footer & Comments AD -->
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Footer & Comments AD -->
 <ins class="adsbygoogle"
      style="display:inline-block;width:728px;height:90px"
