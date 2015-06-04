@@ -36,9 +36,6 @@ include 'temp_header.php'; ?>
      style="display:inline-block;width:160px;height:600px"
      data-ad-client="ca-pub-7995316478862697"
      data-ad-slot="5653372367"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 </div>
 <div class="ad_block_right">
 <!-- 160 Post Page Banner -->
