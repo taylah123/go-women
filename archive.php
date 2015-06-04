@@ -51,5 +51,14 @@ include 'temp_header.php'; ?>
 		?>
 
 </div>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Homepage large leaderboard -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:970px;height:250px"
+     data-ad-client="ca-pub-7995316478862697"
+     data-ad-slot="7291555963"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 </div>
 <?php get_footer(); ?>
