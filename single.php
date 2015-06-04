@@ -29,6 +29,8 @@ include 'temp_header.php'; ?>
 <div class="posts_wrapper" id="post_page">
 
 <div class="inner_content">
+<div class="ad_block_left">
+</div>
 <div class="ad_block_right">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Side Banner -->
