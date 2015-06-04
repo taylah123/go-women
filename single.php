@@ -31,22 +31,24 @@ include 'temp_header.php'; ?>
 <div class="inner_content">
 <div class="ad_block_left">
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- 160 Post Page Banner -->
+<!-- Banner Post Page -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:160px;height:600px"
+     style="display:block"
      data-ad-client="ca-pub-7995316478862697"
-     data-ad-slot="5653372367"></ins>
+     data-ad-slot="4316239961"
+     data-ad-format="auto"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </div>
 <div class="ad_block_right">
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- 160 Post Page Banner -->
+<!-- Banner Post Page -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:160px;height:600px"
+     style="display:block"
      data-ad-client="ca-pub-7995316478862697"
-     data-ad-slot="5653372367"></ins>
+     data-ad-slot="4316239961"
+     data-ad-format="auto"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
