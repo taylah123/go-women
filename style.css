@@ -2376,6 +2376,10 @@ display: inline-block;
 .inner_content {
 	position:relative;
 }
+.ad_block_bottom {
+	width:100%;
+	display:inline-block;
+}
 .ad_block_left, .ad_block_right {
 	position:absolute;
 	top:0;

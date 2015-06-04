@@ -49,15 +49,17 @@ include 'temp_header.php'; ?>
 
 		endif;
 		?>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Catalog Page Banner -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-7995316478862697"
-     data-ad-slot="8768289169"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="ad_block_bottom">
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- Catalog Page Banner -->
+	<ins class="adsbygoogle"
+	     style="display:inline-block;width:728px;height:90px"
+	     data-ad-client="ca-pub-7995316478862697"
+	     data-ad-slot="8768289169"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
 </div>
 </div>
 <?php get_footer(); ?>
