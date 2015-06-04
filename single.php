@@ -27,22 +27,19 @@ include 'temp_header.php'; ?>
 </script>
 
 <div class="posts_wrapper" id="post_page">
-
 <div class="inner_content">
-<div class="ad_block_left">
-</div>
-<div class="ad_block_right">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Side Banner -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7995316478862697"
-     data-ad-slot="2082627160"
-     data-ad-format="auto"></ins>
-    <script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
+  <div class="ad_block_right">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- Side Banner -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-7995316478862697"
+       data-ad-slot="2082627160"
+       data-ad-format="auto"></ins>
+      <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+  </div>
 		<h1><?php the_title(); ?></h1>
 	<?php if (is_single()) {
 		echo $the_content; 
@@ -52,13 +49,15 @@ include 'temp_header.php'; ?>
 </div>
 
 <!-- Footer & Comments AD -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-7995316478862697"
-     data-ad-slot="6094024364"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="ad_block_bottom">
+  <ins class="adsbygoogle"
+       style="display:inline-block;width:728px;height:90px"
+       data-ad-client="ca-pub-7995316478862697"
+       data-ad-slot="6094024364"></ins>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
 </div>
 <!-- Footer & Comments AD -->
 <?php echo do_shortcode('[fbcomments width="800"]'); ?>
