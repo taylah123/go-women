@@ -2379,11 +2379,11 @@ display: inline-block;
 .ad_block_left, .ad_block_right {
 	position:absolute;
 	top:0;
-	width:300px;
+	width:200px;
 	height:100%;
 }
 .ad_block_right {
-	right:-300px;
+	right:-200px;
 }
 .format-aside .entry-title,
 .format-image .entry-title,
