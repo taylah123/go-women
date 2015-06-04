@@ -2379,14 +2379,11 @@ display: inline-block;
 .ad_block_left, .ad_block_right {
 	position:absolute;
 	top:0;
-	width:160px;
+	width:300px;
 	height:100%;
 }
-.ad_block_left {
-	left:-160px;
-}
 .ad_block_right {
-	right:-160px;
+	right:-300px;
 }
 .format-aside .entry-title,
 .format-image .entry-title,
@@ -6107,6 +6104,7 @@ p > video {
 	background:#fff;
 	padding:30px;
 	margin: 0 auto;
+	margin-left:-200px;
 	max-width:900px;
 	width:100%;
 	text-align:left;
