@@ -48,13 +48,12 @@ include 'temp_header.php'; ?>
     <?php author_box(); ?>
 </div>
 
-
-</div>
-<!-- Footer & Comments AD -->
 <ins class="adsbygoogle"
      style="display:inline-block;width:728px;height:90px"
      data-ad-client="ca-pub-7995316478862697"
      data-ad-slot="6094024364"></ins>
+</div>
+<!-- Footer & Comments AD -->
 <?php echo do_shortcode('[fbcomments width="800"]'); ?>
 	</div><!-- .content-area -->
 <?php get_footer(); ?>
