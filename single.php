@@ -28,16 +28,40 @@ include 'temp_header.php'; ?>
 
 
 <div class="posts_wrapper" id="post_page">
+
 <div class="inner_content">
+<div class="ad_block_left">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160 Post Page Banner -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-7995316478862697"
+     data-ad-slot="5653372367"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class="ad_block_right">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160 Post Page Banner -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-7995316478862697"
+     data-ad-slot="5653372367"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
 		<h1><?php the_title(); ?></h1>
 	<?php if (is_single()) {
 		echo $the_content; 
     } ?>
 		<p class="post_content"><?php echo $post->post_content; ?></p>
     <?php author_box(); ?>
-    </div>
+</div>
 
-	</div>
+
+</div>
 <?php echo do_shortcode('[fbcomments width="800"]'); ?>
 	</div><!-- .content-area -->
 <?php get_footer(); ?>

@@ -2373,7 +2373,19 @@ display: inline-block;
 /**
  * 12.2 Post Formats
  */
-
+.inner_content {
+	position:relative;
+}
+.ad_block_left, .ad_block_right {
+	position:absolute;
+	top:0;
+}
+.ad_block_left {
+	left:-200px;
+}
+.ad_block_right {
+	right:-200px;
+}
 .format-aside .entry-title,
 .format-image .entry-title,
 .format-video .entry-title,
