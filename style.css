@@ -2376,21 +2376,70 @@ display: inline-block;
 .inner_content {
 	position:relative;
 }
+
+.recent_posts_box {
+	background: #c8c0e8;
+  	padding: 10px 15px;
+  	margin-top: 20px;
+  	padding-top: 14px;
+}
+
+.recent_posts_box h2 {
+	font-size: 25px;
+  	padding-bottom: 10px;
+  	color: #fff;
+  	text-align: center;
+  	display: inline-block;
+  	line-height: 1em;
+}
+
+.recent_posts_box ul {
+	margin-bottom:0px;
+}
+
+.recent_posts_box img {
+	padding: 20px 20px 4px 20px!important;
+}
+.recent_posts_box ul li {
+	list-style: none;
+  	background: #fff;
+  	margin: 10px 0px;
+}
+
+.recent_posts_box ul li a {
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 1.4em;
+	display: inline-block;
+	padding: 0px 20px 20px 20px;
+	color:#000;
+}
+
+.inner_post_content {
+	display:inline-block;
+	width:75%;
+	background-color:#fff;
+	padding:40px;
+	min-width:70%;
+}
 .ad_block_bottom {
 	width:100%;
 	display:inline-block;
 	padding-top:50px;
 }
 .ad_block_left, .ad_block_right {
-	position:absolute;
+	position:relative;
 	top:0;
-	width:201px;
+	width:200px;
 	margin:0;
 	padding:0;
 	height:100%;
+	width:20%;
+	margin-left:5%;
+	display:inline-block;
 }
 .ad_block_right {
-	right:-220px;
+	float:right;
 }
 .format-aside .entry-title,
 .format-image .entry-title,
@@ -6108,10 +6157,8 @@ p > video {
 }
 
 .inner_content {
-	background:#fff;
-	padding:30px;
 	margin: 0 auto;
-	max-width:900px;
+	max-width:1000px;
 	width:100%;
 	text-align:left;
 }

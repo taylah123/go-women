@@ -29,23 +29,39 @@ include 'temp_header.php'; ?>
 <div class="posts_wrapper" id="post_page">
 <div class="inner_content">
   <div class="ad_block_right">
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!-- Side Banner -->
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-7995316478862697"
-       data-ad-slot="2082627160"
-       data-ad-format="auto"></ins>
-      <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Side Banner -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-7995316478862697"
+         data-ad-slot="2082627160"
+         data-ad-format="auto"></ins>
+        <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    <div class="recent_posts_box">
+      <h2>Recent Posts</h2>
+      <ul>
+        <?php
+          $recent_posts = wp_get_recent_posts();
+          foreach( $recent_posts as $recent ){
+            echo '<li>';
+            echo get_the_post_thumbnail($recent["ID"], 'thumbnail');
+            echo '<a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a> </li> ';
+            
+          }
+        ?>
+      </ul>
+    </div>
   </div>
+  <div class="inner_post_content">
 		<h1><?php the_title(); ?></h1>
 	<?php if (is_single()) {
 		echo $the_content; 
     } ?>
 		<p class="post_content"><?php echo $post->post_content; ?></p>
     <?php author_box(); ?>
+  </div>
 </div>
 
 <!-- Footer & Comments AD -->
