@@ -82,10 +82,12 @@ include 'temp_header.php'; ?>
 <?php get_footer(); ?>
 <!-- Footer & Comments AD -->
 <!-- Footer & Comments AD -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-7995316478862697"
-     data-ad-slot="6094024364"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="ad_block_bottom">
+  <ins class="adsbygoogle"
+       style="display:inline-block;width:728px;height:90px"
+       data-ad-client="ca-pub-7995316478862697"
+       data-ad-slot="6094024364"></ins>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
