@@ -40,7 +40,7 @@
 	<script>
 	jQuery(document).ready(function($) {
 		console.log("exceuting this");
-		  if($('.inner_post_content').height() < 700) {
+		  if($('.inner_post_content').height() < 1400) {
 		    console.log("it is smaller, height is:" + $('.inner_post_content').height() );
 		    $('.recent_posts_box').addClass('hide');
 		  } else {
