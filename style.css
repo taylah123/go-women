@@ -2426,6 +2426,8 @@ display: inline-block;
 
 .inner_post_content {
 	width:100%;
+	background-color:#fff;
+	padding:30px;
 }
 
 .ad_block_bottom {
@@ -3167,9 +3169,9 @@ p > video {
 	.inner_post_content {
 		display:inline-block;
 		width:75%;
-		background-color:#fff;
-		padding:40px;
 		min-width:70%;
+		margin:0;
+		padding:40px;
 	}
 
 	.ad_block_left, .ad_block_right {
