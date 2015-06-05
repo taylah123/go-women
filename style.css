@@ -2415,32 +2415,21 @@ display: inline-block;
 	color:#000;
 }
 
-.inner_post_content {
-	display:inline-block;
-	width:75%;
-	background-color:#fff;
-	padding:40px;
-	min-width:70%;
+
+.ad_block_right {
+	display:none;
 }
+
+.inner_post_content {
+	width:100%;
+}
+
 .ad_block_bottom {
 	width:100%;
 	display:inline-block;
 	padding-top:50px;
 }
-.ad_block_left, .ad_block_right {
-	position:relative;
-	top:0;
-	width:200px;
-	margin:0;
-	padding:0;
-	height:100%;
-	width:20%;
-	margin-left:5%;
-	display:inline-block;
-}
-.ad_block_right {
-	float:right;
-}
+
 .format-aside .entry-title,
 .format-image .entry-title,
 .format-video .entry-title,
@@ -3166,6 +3155,29 @@ p > video {
 		width:40%;
 		height:470px;
 		padding-bottom:0px;
+	}
+
+	.inner_post_content {
+		display:inline-block;
+		width:75%;
+		background-color:#fff;
+		padding:40px;
+		min-width:70%;
+	}
+
+	.ad_block_left, .ad_block_right {
+		position:relative;
+		top:0;
+		width:200px;
+		margin:0;
+		padding:0;
+		height:100%;
+		width:20%;
+		margin-left:5%;
+		display:inline-block;
+	}
+	.ad_block_right {
+		float:right;
 	}
 
 	p,
