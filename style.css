@@ -2429,9 +2429,7 @@ display: inline-block;
 }
 
 .ad_block_bottom {
-	width:100%;
-	display:inline-block;
-	padding-top:50px;
+	display:none;
 }
 
 .format-aside .entry-title,
@@ -2957,6 +2955,11 @@ p > video {
 
 	blockquote > blockquote {
 		margin-left: 0;
+	}
+	.ad_block_bottom {
+		width:100%;
+		display:inline-block;
+		padding-top:50px;
 	}
 
 	.site-branding {
