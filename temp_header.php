@@ -39,6 +39,13 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script>
 	jQuery(document).ready(function($) {
+		console.log("exceuting this");
+		  if($('.inner_post_content').height() < 700) {
+		    console.log("it is smaller, height is:" + $('.inner_post_content').height() );
+		    $('.recent_posts_box').addClass('hide');
+		  } else {
+		    console.log("it isnt smaller, height is:" + $('.inner_post_content').height());
+		  }
 	    $(window).scroll(function (e) {
 	    	var isMobile = false;
 	    	if($(window).width() < 1000) {

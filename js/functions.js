@@ -121,7 +121,6 @@
 		$window        = $( window );
 		$sidebar       = $( '#sidebar' ).first();
 		adminbarOffset = $body.is( '.admin-bar' ) ? $( '#wpadminbar' ).height() : 0;
-
 		$window
 			.on( 'scroll.twentyfifteen', scroll )
 			.on( 'resize.twentyfifteen', function() {
@@ -129,7 +128,6 @@
 				resizeTimer = setTimeout( resizeAndScroll, 500 );
 			} );
 		$sidebar.on( 'click keydown', 'button', resizeAndScroll );
-
 		resizeAndScroll();
 
 		for ( var i = 1; i < 6; i++ ) {
@@ -138,3 +136,4 @@
 	} );
 
 } )( jQuery );
+

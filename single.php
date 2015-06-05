@@ -29,6 +29,21 @@ include 'temp_header.php'; ?>
 <div class="posts_wrapper" id="post_page">
 <div class="inner_content">
   <div class="ad_block_right">
+    <div class="recent_posts_box">
+        <h2>Recent Posts</h2>
+        <ul>
+          <?php
+            $args = array( 'numberposts' => '6', 'post_status' => 'publish', );
+            $recent_posts = wp_get_recent_posts( $args );
+            foreach( $recent_posts as $recent ){
+              echo '<li>';
+              echo get_the_post_thumbnail($recent["ID"], 'thumbnail');
+              echo '<a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a> </li> ';
+              
+            }
+          ?>
+        </ul>
+      </div>
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Side Banner -->
     <ins class="adsbygoogle"
@@ -39,21 +54,6 @@ include 'temp_header.php'; ?>
         <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
-    <div class="recent_posts_box">
-      <h2>Recent Posts</h2>
-      <ul>
-        <?php
-          $args = array( 'numberposts' => '6', 'post_status' => 'publish', );
-          $recent_posts = wp_get_recent_posts( $args );
-          foreach( $recent_posts as $recent ){
-            echo '<li>';
-            echo get_the_post_thumbnail($recent["ID"], 'thumbnail');
-            echo '<a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a> </li> ';
-            
-          }
-        ?>
-      </ul>
-    </div>
   </div>
   <div class="inner_post_content">
 		<h1><?php the_title(); ?></h1>

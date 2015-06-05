@@ -2380,8 +2380,12 @@ display: inline-block;
 .recent_posts_box {
 	background: #c8c0e8;
   	padding: 10px 15px;
-  	margin-top: 20px;
+  	margin-bottom: 20px;
   	padding-top: 14px;
+}
+
+.recent_posts_box.hide {
+	display:none!important;
 }
 
 .recent_posts_box h2 {
