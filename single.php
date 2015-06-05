@@ -43,7 +43,7 @@ include 'temp_header.php'; ?>
       <h2>Recent Posts</h2>
       <ul>
         <?php
-          $args = array( 'numberposts' => '6' );
+          $args = array( 'numberposts' => '6', 'post_status' => 'publish', );
           $recent_posts = wp_get_recent_posts( $args );
           foreach( $recent_posts as $recent ){
             echo '<li>';
