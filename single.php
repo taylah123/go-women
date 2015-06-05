@@ -43,7 +43,8 @@ include 'temp_header.php'; ?>
       <h2>Recent Posts</h2>
       <ul>
         <?php
-          $recent_posts = wp_get_recent_posts();
+          $args = array( 'numberposts' => '6' );
+          $recent_posts = wp_get_recent_posts( $args );
           foreach( $recent_posts as $recent ){
             echo '<li>';
             echo get_the_post_thumbnail($recent["ID"], 'thumbnail');
